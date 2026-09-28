@@ -1,0 +1,64 @@
+Building for debugging...
+[Planning 1 / 125]
+[Planning deferred tasks]
+[42 / 67]
+[43 / 68] StudyPlanner
+[53 / 104]
+[55 / 104]
+[60 / 104]
+[62 / 104]
+[66 / 104]
+[69 / 104]
+[74 / 104]
+[76 / 104]
+[77 / 104]
+[79 / 104] StudyPlanner
+[87 / 104] StudyPlanner
+[94 / 105] StudyPlannerTests-product
+[108 / 143]
+[114 / 143]
+[118 / 143]
+[120 / 143]
+[123 / 143]
+[126 / 143]
+[127 / 143]
+[132 / 143] StudyPlannerTests-product
+[137 / 143] StudyPlannerTests-product
+[139 / 143] StudyPlannerTests-product
+Build complete! (8,65 с)
+Test Suite 'All tests' started at 2026-09-28 15:36:55.374.
+Test Suite 'StudyPlannerTests.xctest' started at 2026-09-28 15:36:55.375.
+Test Suite 'StudyPlannerPROTests' started at 2026-09-28 15:36:55.375.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testBlankTitleIsReportedBeforeInvalidMinutes]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testBlankTitleIsReportedBeforeInvalidMinutes]' passed (0.002 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testDecodingItemFromJSONRunsValidation]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testDecodingItemFromJSONRunsValidation]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testFixtureArrayDecodesSortedWithCorrectQueries]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testFixtureArrayDecodesSortedWithCorrectQueries]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testKeyedPlanDecodingReportsFirstDuplicateID]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testKeyedPlanDecodingReportsFirstDuplicateID]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testMarkCompletedIsIdempotentAndRejectsUnknownID]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testMarkCompletedIsIdempotentAndRejectsUnknownID]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testMinutesBoundaryRejectsZeroAndNegativeButAcceptsOne]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testMinutesBoundaryRejectsZeroAndNegativeButAcceptsOne]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testOrderingIsTitleThenIDRegardlessOfInputOrder]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPROTests testOrderingIsTitleThenIDRegardlessOfInputOrder]' passed (0.000 seconds).
+Test Suite 'StudyPlannerPROTests' passed at 2026-09-28 15:36:55.379.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'StudyPlannerPublicTests' started at 2026-09-28 15:36:55.379.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' passed (0.000 seconds).
+Test Suite 'StudyPlannerPublicTests' passed at 2026-09-28 15:36:55.380.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'StudyPlannerTests.xctest' passed at 2026-09-28 15:36:55.380.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'All tests' passed at 2026-09-28 15:36:55.380.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.004 (0.006) seconds
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
